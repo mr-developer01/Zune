@@ -1,7 +1,11 @@
-import React from 'react';
+import { Camera } from 'lucide-react';
 
 const App = () => {
-  return <div>App gghhhh</div>;
+  return (
+    <div>
+      <Camera color="#cdb4db" size={48} />
+    </div>
+  );
 };
 
 export default App;
